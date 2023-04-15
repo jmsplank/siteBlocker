@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Settings</title>
+    <link rel="stylesheet" href="css/pico.min.css">
+</head>
+
+<body>
+    <header class="container">
+        <hgroup>
+            <h1>Settings</h1>
+            <h2>site blocker</h2>
+        </hgroup>
+    </header>
+    <main class="container">
+        <section id="list of blocked sites">
+            <h3>Blocked Sites</h3>
+            <form>
+                <div class="grid">
+                    <div>
+                        <textarea id="textarea" rows="10" cols="50" spellcheck="false"></textarea>
+                        <br>
+                        <button id="save">Save</button>
+                    </div>
+                    <div></div>
+                </div>
+                <strong>Enabled?</strong>
+                <input type="checkbox" id="checkbox">
+            </form>
+            <script src="options.js"></script>
+        </section>
+    </main>
+</body>
+
+</html>
